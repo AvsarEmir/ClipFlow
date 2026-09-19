@@ -1,0 +1,41 @@
+# Generated release archives and local runtimes
+/packages/
+/test-work/
+/tests/results/
+/work/
+/runtime/
+/bin/
+node_modules/
+__pycache__/
+*.py[cod]
+*.exe
+*.dll
+*.pdb
+*.log
+*.zip
+*.xpi
+
+# Local settings, credentials and downloaded media
+.env
+.env.*
+!.env.example
+settings.json
+host.json
+host-firefox.json
+cookies*.txt
+*.pem
+*.pfx
+*.key
+*.mp3
+*.mp4
+*.webm
+*.part
+*.ytdl
+
+# Editor / operating system files
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

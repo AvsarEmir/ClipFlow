@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "ClipFlow • YouTube MP3 / MP4",
+  "version": "1.0.0",
+  "description": "Açık YouTube videosunu seçtiğiniz kalitede MP3 veya MP4 olarak bilgisayarınıza kaydedin.",
+  "minimum_chrome_version": "120",
+  "permissions": [
+    "activeTab",
+    "nativeMessaging",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background-v1.0.0.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "ClipFlow ile indir",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJGSvtPJwM5pFgAZkR3mP2k+BqeXLGi7FKHtuyFmn75ZPc3VsgEYbJqr9Nb5GUokU52wopuA60uYbuhMGm+kvwAPfsjxZFJ7OWPBIpK4tldl8/9RaW04ku4iL50Ydj2vMUT0bggwm5D3TzwpDGBHP2kBsAmehgv4Yi1XQWrShsigeg70sZcDuHR1q7ExxuaTFUSDcn3S8hZFRydYlX1v1zmh9xicOzzc09+hhZtkEJJFk1qRLHxZJ4dx5ok6/knBMPL4JXy6aIWkAEij0DL1evAsp8n9GWsJrmXzLMFkQiFvr6Np2afs4kJPqsI0nz5bK7w+wAsgLj8IHU5+EvtpbQIDAQAB"
+}
